@@ -1,0 +1,14 @@
+PaJes - Simple JavaScript Templating Library for generating HTML
+================================================================
+
+PaJes is a simple JavaScript templating library for generating well-formed HTML. It can be used to generate innerHTML segments in browser in a safe and clean way without having to resolve to the error prone string concatenation and manual escaping of HTML entities. It can also be used on server side along with server side JavaScript frameworks like node.js as a full blown view templating solution. In fact, PaJes is available as a node.js compatible CommonJS module using file PaJes-CommonJS.js.
+
+Files:
+------
+
+1) PaJes.js: This is the main library file. Most applications will need only this one file.
+2) PaJes-CommonJS.js: Same code as contained in PaJes.js above but packaged as CommonJS module.
+3) RhinoOutputStream.js: Makes it easy to run PaJes code in Rhino Shell. Defines "out" stream in terms of Rhino Shell's print().
+4) PaJesDemo.js: PaJes code samples from the documentation. Includes RhinoOutputStream.js so it can be directly run in Rhino Shell.
+5) Pajes.html: PaJes doumentation and tutorial
+ 
